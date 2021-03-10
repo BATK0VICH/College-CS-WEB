@@ -1,44 +1,66 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" lang="en">
-        <title>Dronov Dmitrii forms</title>
-    </head>
-    <body>
-        <h3>Login form</h3>
-        <form>
-            <label for="username">Username:</label><br>
-            <input type="text" id="username" name="username"><br>
-            <label for="password">Password</label><br>
-            <input type="password" id="password" name="password"><br>
-            <input type="submit" value="submit">
-        </form>
-        <h3>Registration</h3>
-        <form>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="surname">Surname:</label><br>
-            <input type="text" id="surname" name="surname"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="password">Password</label><br>
-            <input type="password" id="password" name="password"><br>
-            
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label><br>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label><br>
 
-            <p>What language do you use?</p>
-            <input type="checkbox" id="C" name="C" value="C">
-            <label for="C">C</label><br>
-            <input type="checkbox" id="Cpp" name="Cpp" value="C++">
-            <label for="Cpp"></label>C++</label><br>
-            <input type="checkbox" id="Python" name="Python" value="Python">
-            <label for="Python">Python</label><br>
+<head>
+    <meta charset="utf-8" lang="en">
+    <title>Dronov Dmitrii forms</title>
+</head>
 
-            <input type="submit" value="submit">
-        </form>
-        <form></form>
-    </body>
+<body>
+    <h3>Login form</h3>
+    <form>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br>
+        <input type="submit" value="submit">
+    </form>
+
+    <h3>Registration</h3>
+
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="surname">Surname:</label><br>
+        <input type="text" id="surname" name="surname"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br>
+        <br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <label for="Uni">Choose a university you graduated from:</label>
+        <select name="Uni" id="Uni">
+            <optgroup label="Chisinau">
+                <option value="utm">Universitatea Tehnica Moldovei</option>
+                <option value="USM">Universitatea de stat Moldovei</option>
+                <option value="ulim">Universitatea libera Moldovei</option>
+            </optgroup>
+            <optgroup label="the rest of the Rupublic">
+                <option value="kdu">Comrat State University </option>
+            </optgroup>
+        </select>
+        <br>
+        <p>What language do you use?</p>
+        <input type="checkbox" id="C" name="C" value="C">
+        <label for="C">C</label><br>
+        <input type="checkbox" id="Cpp" name="Cpp" value="C++">
+        <label for="Cpp">C++</label><br>
+        <input type="checkbox" id="Python" name="Python" value="Python">
+        <label for="Python">Python</label><br>
+
+
+
+        <textarea>Write here about you.</textarea>
+        <br>
+        <input type="reset">
+        <input type="submit" value="Submit Query">
+    </form>
+</body>
+
 </html>
