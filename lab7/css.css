@@ -1,0 +1,21 @@
+BODY
+{margin:0; padding:0; background:color:green;}
+H1 {color:blue; text-align:center; font-family:"Arial";}
+H3 {color:red; text-align:left; font-family:"Times New Roman"; text-decoration:underline;}
+{text-indent: 0.5am; font-family:"Courier";}
+{list-style:"Times New Roman"; font-size:14px;}
+a:link {
+  color: #497DDD; 
+  border-bottom: 1px dashed; 
+}
+a:visited {
+  color: #497DDD;
+}
+a:hover {
+  color:greenyellow; 
+  border-bottom: .07em solid;
+}
+a:active {
+  color: #497DDD; 
+  border-bottom: 1px dashed;
+}
