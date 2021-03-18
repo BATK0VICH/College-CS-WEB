@@ -28,3 +28,23 @@ body {
     padding-left: 0%;
     padding-right: 0%;
 }
+.card-wrap{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+}
+.card-body > ul{
+    padding: 0px;
+    margin-bottom: 5px; 
+}
+
+
+@media(max-width: 1295px){
+    .nav-link{
+        font-size: 12px;
+        margin-left:0px; 
+    }
+    .nav-item{
+        margin-left: 18px; 
+    }
+}
